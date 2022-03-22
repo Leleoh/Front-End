@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Formatações adicionais</h1>
+    <h2>Marcador de texto</h2>
+    <p>Podemos criar um <mark>texto marcado</mark> usando a tag mark</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando <big>um texto grande</big> e <small>um texto pequeno</small> nessa página, a big já está obsoleta</p>
+    <h2>Texto excluído</h2>
+    <p>Podemos marcar um texto como <del>riscado ou excluído</del> para indicar que ele deve ser lido mas não considerado usando a tag del</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar ele <ins>como inserido</ins> usando para mostrar que ele foi adicionado depois usando a tag ins</p>
+    <h2>Texto sobrescrito e subscrito</h2>
+    <p>No sobrescrito é comum em cálculos com expoentes X<sup>20</sup> + 3 </p>
+    <p>No subscrito pode ser usado para fórmulas químicas por exemplo, onde temos H<sub>2</sub>O</p>
+    <hr>
+
+    <h2>Podemos usar também formatações para códigos de outras linguagem usando a tag <strong>code</strong></h2>
+    <code>
+        num = int(('Digite a sua idade'))
+        if num < 18:
+            print(f'Você é menor de idade')
+        else:
+            print(f'Você é maior de idade')
+    </code>
+    <p>Todavia, desse modo o código não fica formatado, para formatar em formato de código é necessário <strong>usar a tag pre juntamente da tag code</strong></p>
+    <pre><code>
+        num = int(('Digite a sua idade'))
+        if num < 18:
+            print(f'Você é menor de idade')
+        else:
+            print(f'Você é maior de idade')
+    </code></pre>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Invertido</bdo></p>
+
+</body>
+</html>
