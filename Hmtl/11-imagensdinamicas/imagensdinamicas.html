@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptações da Imagem</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente diminuir o tamanho do navegador ou abrir o site em outros dispositivos com a resolução menor.</p>
+
+    <picture>       
+        <source media="(max-width: 650px )" srcset="imagens/pequeno.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/medio.jpg" type="image/jpg">
+        <img src="imagens/grande.jpg" alt="Imagem Grande">
+    </picture>
+    <hr>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender as duas maneiras de reproduzir áudio em html5</p>
+    <p>Para reproduzir audio precisamos usar a tag audio, depois os parâmetros controls e autoplay</p>
+    <audio src="midia/middlenight.mp3" controls autoplay></audio>
+    <p>A segunda maneira é usando a tag audio mas adicionando <EM>sources src</EM> depois é só preencher normalmente e informar o tipo de arquivo do audio</p>
+    <audio controls>
+        <source src="midia/middlenight.mp3" type="audio/mpeg">
+        <source src="midia/middlenight.ogg" type="audio/ogg">
+        <source src="midia/middlenight.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio, clique <a href="midia/middlenight.mp3" download = "middlenight.mp3">aqui para baixar o arquivo</a></p>
+    </audio>
+    <hr>
+    <h1>Reproduzindo vídeos no site</h1>
+    <p>Assim como nos áudios, existem duas maneiras para colocar vídeos no site, precisamos usar a tag video, assimilada com outros parâmetros como control, autoplay, etc</p>
+    <video src="midia/amv.mp4" controls></video>
+    <p>Também podemos usar a tag video, mas usando os sources, o que torna compatível para cada navegador</p>
+    <video width="600px" controls>
+        <source src="midia/amv.mp4" type="video/mp4">
+    </video>
+    <p>Também podemos incorporar um vídeo do youtube</p>
+    <iframe width="720" height="480" src="https://www.youtube.com/embed/xngnuP1ZPQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
