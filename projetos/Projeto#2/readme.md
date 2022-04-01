@@ -9,3 +9,6 @@ Solução: Para isso, bastou utilizar a tag width no css externo .borda, setando
 
 #PROBLEMA 2: Links do cabeçalho estavam muito próximos um do outro, não deixando um espaçamento
 Solução: Usar o padding para espaçamento
+
+#PROBLEMA 3: Criar uma caixa de envio de contato, ao clicar em enviar não acontecia nada
+Solução: Para isso, é necessário que os inputs estejam dentro de uma tag form, então é só criar a mesma
