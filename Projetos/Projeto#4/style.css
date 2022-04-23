@@ -81,18 +81,19 @@ body.fotos #navegacao a#fotos
     width: 270px;
     float: left;
     background-color: blueviolet;
-    float: left;
+    margin: 0 0 20px 195px ;
 }
 #secundario{
     width: 270px;
     background-color: aqua;
-    float: left;
+    float: right;
+    margin: 0 0 20px 15px;
 }
 #lateral{
     width: 180px;
     float: left;
     background-color: #e50040;
-    float: left;
+    margin: 0 0 20px -465px;
 }
 /*Caixas*/
 .caixa{
@@ -112,4 +113,14 @@ h2{
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+/*Rodapé*/
+#container-rodape{
+    background: #294c71;
+    padding: 20px;
+}
+#rodape{
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }

@@ -14,4 +14,6 @@ Aqui deixarei registrados as dificuldades e observações encontradas na criaç�
 
 #Problema 5: Ajustar as caixas de conteúdo, onde ficarão imagens, categorias, recentes, etc. Solução: Criar classes e ids para serem formatados ao bel prazer no css externo
 
+#Problema 6: Colocar as caixas nos devidos lugares, por exemplo, a área lateral estava na direita, sendo que seu lugar é na esquerda. Solução: Usar o margin para organizar as posições, usando margin negativo e positivo
+
 

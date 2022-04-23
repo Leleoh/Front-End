@@ -17,7 +17,7 @@ Solução: Para fazer isso criei um seletor exclusivo para o h1, onde apliquei u
 
 #Problema 4: Formatar os links de mandeira que se adaptem ao projeto.
 Solução: Para isso eu criei uma nova área exclusiva de formatações de links, a fim de tornar o código mais organizado. Comecei criando dois seletores para o link a:link, com a propriedade color, o que mudou a cor dos links estáticos. Após isso a:hoover, com color e background em cores adequadas, o que possibilitou fazer a formatação quando o mouse passa em cima.
-Estilos que apliquei nos links: color, background-color, padding, text-decoration
+Estilos que apliquei nos links: color, background-color, padding, text-decoration.
 
 #Problema 5: Criar uma estrutura com tamanho fixo para mostrar as postagens recentes abaixo do cabeçalho.
 Solução: Criei uma nova área de layout, com background, width e margin para dar o espaçamento
