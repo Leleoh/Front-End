@@ -81,7 +81,6 @@ body.fotos #navegacao a#fotos
     width: 180px;
     float: left;
     margin: 0 0px 20px -465px;
-    position: static;
 }
 #primario{
     width: 270px;
@@ -91,13 +90,11 @@ body.fotos #navegacao a#fotos
 #duas-colunas #primario{
     width: 555px;
     float: left;
-    background-color: blueviolet;
     margin: 0 0 20px 195px ;
 }
 #uma-coluna #primario{
     width: 750px;
     float: left;
-    background-color: blueviolet;
     margin: 0 0 20px 0px ;
 }
 #secundario{
