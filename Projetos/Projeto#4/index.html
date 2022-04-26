@@ -7,7 +7,7 @@
     <title>Notícias Cidade, o seu site de notícias</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="home">
+<body id="tres-colunas" class="home">
     <!--Início do container-->
     <div id="container">
         <!--Início do topo-->
@@ -39,9 +39,149 @@
         </div><!--Fim do topo-->
         <!--Início do conteúdo-->
         <div id="conteudo">
-            <div id="primario">Primario</div>
-            <div id="secundario">Secundario</div>
-            <div id="lateral">Lateral</div>
+            <div id="primario">
+                <div class="caixa">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova legislação</h3>
+                        <img class="imagem-principal" src="imagens/Konohagakure.jpg" alt="" width="100%" height="150px">
+                        <p>Konoha em perigo? Veja pronunciamento do Nidaime...</p>
+                        <a href="">Leia mais!</a>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="imagens/matt.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>Matt ser supremo!</h3>
+                                    <p>Matt confirmado como o mais poderoso pela autora?</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/delena.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>Elena e Damon!?</h3>
+                                    <p>Teria sido Stefan trocado e traído?</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/katherina.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>O drama de Katherine!</h3>
+                                    <p>Perdeu tudo? Está morando de favor na pensão salvatore?</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/silas.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>Sillas, o fiel!</h3>
+                                    <p>Seria sillas o primeiro e último romântico? Confira!</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="secundario">
+                <div class="caixa">
+                    <div class="caixa-entrevista">
+                        <h2>Última entrevista</h2>
+                        <div class="caixa-conteudo">
+                            <h3>Depoimento de Arthur Aguiar</h3>
+                            <img class="imagem-principal" src="imagens/arthur.jpg" alt="" width="100%" height="150px">
+                            <p>Ele afirma ser fiel e que não traiu a esposa, leia a íntegra...</p>
+                            <a href="">Leia mais!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>Últimas notícias</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="imagens/sasuke.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>Sasuke e sarada</h3>
+                                    <p>Teria Sasuke Uchiha abandonado sua filha?</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/kakashi.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>Kakashi, o original</h3>
+                                    <p>De copiador não tem mais nada? Por que não copia?</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/hiruzen-naruto.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>Hiruzen e naruto</h3>
+                                    <p>Por que o terceiro hokage não cuidou do menino? Veja o debate!</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/danzo-itachi-sasuke-naruto-1200x675.jpg" alt="" width="80px" height="53.25px">
+                                    <h3>Itachi e Danzou</h3>
+                                    <p>O Uchicha não guardou rancor de Danzou? Por que não se vingou?</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                                                                          
+            </div>               
+            <!--Início Lateral-->
+            <div id="lateral">
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li>
+                                <a href="">Lenoel Ferraz</a>
+                            </li>
+                            <li>
+                                <a href="">Rallaefy Souza</a>
+                            </li>
+                            <li>
+                                <a href="">Naturo Sharinganja</a>
+                            </li>
+                            <li>
+                                <a href="">Saske Lee</a>
+                            </li>
+                            <li>
+                                <a href="">Nicolas Michaelson</a>
+                            </li>
+                            <li>
+                                <a href="">Estefão Salvador</a>
+                            </li>
+                            <li>
+                                <a href="">Elena Guilbeltrao</a>
+                            </li>
+                            <li>
+                                <a href="">Fujiro Koakombi</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form action="">
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div><!--Fim do container-->
     <div id="container-rodape" style="clear: both;">
