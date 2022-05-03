@@ -1,0 +1,12 @@
+header{
+    border: 1px solid gray;
+    background-color: gray;
+    padding: 10px;
+}
+nav{
+    border: 1px solid greenyellow;
+}
+article{
+    background-color: orange;
+    padding: 5px;
+}

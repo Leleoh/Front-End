@@ -1,0 +1,8 @@
+header{
+    border: 1px solid gray;
+    background-color: gray;
+    padding: 10px;
+}
+article{
+    background-color: orange;
+}
