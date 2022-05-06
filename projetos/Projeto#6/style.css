@@ -1,0 +1,176 @@
+/*Limpando as formatações pré-existentes*/  
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Estrutura do site*/
+body{
+    background: #f4f2ec url(imagens/fundo.png) repeat-x;
+    font-family: 'Lucida Grande','Lucida Sans', 'Lucida Sans Regular','Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+a:link, a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115;
+}
+
+/*Cabeçalho*/
+#logo{
+    background: url(imagens/logo.png) no-repeat left top;
+    float: left;
+    width: 248px;
+    height: 21px;
+    margin-top: 30px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+nav li{
+    float: left;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #535858;
+}
+/*Principal*/
+#conteudo{
+    float: left;
+    width: 710px;
+}
+#capa{
+    margin-top: 10px;
+}
+/*Aside*/
+aside{
+    float: right;
+    width: 350px;
+    background-color: #ebe7dd;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+section#visita{
+    background: #cdc8b1;
+    padding: 27px 27px 27px 27px;
+    margin-top: 12px;
+}
+article#video{
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+article#mapa{
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+article#exposicoes{
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+article#exposicoes ul{
+    font-size: 0.8em;
+    padding-left: 40px;
+}
+article#exposicoes ul li{
+    padding: 3px;
+}
+article#historia {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+article#historia p{
+    font-size: 0.75em;
+    padding-bottom: 10px;
+    line-height: 18px;
+}
+article#historia a{
+    font-size: 0.8em;
+}
+h3{
+    color: #227115;
+    font-size: 0.75em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-size: 0.75em;
+}
+section#galeria{
+    padding: 20px 27px 0 27px;
+}
+section#galeria a{
+    display: block;
+    background: url(imagens/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+}
+section#galeria img {
+	margin-left: 2px;
+	margin-top: 3px;
+}
+/*Formulários*/
+input{
+    height: 20px;
+    width: 85px;
+    background-color: #fff;
+    border: none;
+    font-size: 0.9em;
+}
+fieldset{
+    border: none;
+    font-size: 0.8em;
+    padding: 4px;
+}
+input.campo{
+    border: 1px solid #ada484;
+}
+input.botao{
+    background: #9b9271;
+    color: White;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+}
+/*Rodapé*/
+footer{
+    clear: both;
+    padding: 20px 0 30px 0;
+    text-align: center;
+    background: url(imagens/fundo-rodape.png) no-repeat center top;
+    margin-top: 20px;
+    
+}
+footer p{
+    font-size: 0.9em;
+    padding: 5px;   
+}
+footer a{
+    font-size: 0.9em;
+    padding: 5px;   
+}
